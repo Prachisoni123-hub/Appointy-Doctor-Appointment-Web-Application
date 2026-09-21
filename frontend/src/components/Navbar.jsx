@@ -20,7 +20,7 @@ const Navbar = () => {
       <div className="w-28 h-28 overflow-hidden">
         <img
           onClick={() => navigate('/')}
-          src={assets.logo || '/fallback-logo.png'}
+          src={assets.logo || '/fallback-logo1.png'}
           alt="Logo"
           className="w-full h-full object-cover object-center cursor-pointer"
         />
